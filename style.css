@@ -1,0 +1,45 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+#campo_pesquisa{
+    width: 100%;
+   
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#campo_pesquisa label{
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #333;
+}
+input{
+    padding: 10px;
+    width: 40vw;
+    margin: 20px ;
+    border-radius: 10px ;
+    border: 1px solid #929292;
+}
